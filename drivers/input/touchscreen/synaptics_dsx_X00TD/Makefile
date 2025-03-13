@@ -16,3 +16,4 @@ obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX_ACTIVE_PEN_X00TD) += synaptics_dsx_active
 obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX_GESTURE_X00TD) += synaptics_dsx_gesture.o
 obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX_VIDEO_X00TD) += synaptics_dsx_video.o
 obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX_DEBUG_X00TD) += synaptics_dsx_debug.o
+ccflags-y += -Wno-vla-extension
