@@ -21,7 +21,6 @@
 /* USB alert */
 #include <linux/iio/consumer.h>
 /* Realize jeita */
-#include "fg-core.h"
 #include <linux/gpio.h>
 /* Misc */
 #include <linux/fs.h>
