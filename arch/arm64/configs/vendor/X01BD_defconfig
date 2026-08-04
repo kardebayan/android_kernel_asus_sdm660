@@ -4757,10 +4757,6 @@ CONFIG_RPMSG_QCOM_SMD=y
 CONFIG_MSM_RPM_SMD=y
 
 #
-# SoundWire Devices
-#
-
-#
 # SOC (System On Chip) specific Drivers
 #
 
